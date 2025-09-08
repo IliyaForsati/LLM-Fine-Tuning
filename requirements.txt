@@ -1,5 +1,23 @@
-transformers
-datasets
-accelarate
-torch
-peft
+# Base Packages
+torch>=2.2.0
+transformers>=4.45.0
+datasets>=2.19.0
+accelerate>=0.30.0
+peft>=0.10.0
+tqdm>=4.66.0
+
+# Essential for 4-bit/8-bit training
+bitsandbytes>=0.43.0
+
+# Utilities
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# # Monitoring & Logging
+# wandb>=0.16.0
+# tensorboard>=2.15.0
+
+# # For Jupyter/Notebook environments
+# ipywidgets>=8.0.0
+# jupyter>=1.0.0
